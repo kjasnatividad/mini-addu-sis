@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color:white;
+    font-family:Arial, sans-serif;
+}
+#main-head{
+    display: flex;
+    height: 60px;
+    background-color: #3b5998;
+}
+#main-head img{
+    margin-left:80px;
+    width:55px;
+    height:55px;
+    margin-bottom: 5px;
+}
+.head-sis p{
+    font-size:20px;
+    color:white;
+    margin-left:20px;
+    margin-bottom: -7px;
+    margin-top:10px;
+
+}
+.head-sis p.subhead{
+    font-size:10px;
+    color:#aeb4c3;
+    margin-left:27px;
+}
