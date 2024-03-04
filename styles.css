@@ -41,7 +41,8 @@ body {
     font-size: 12px;
     color: #000000; /* Match the color of the h1 in .mainbody-teachers */
 }
-.mainbody-teachers h3{
+.mainbody-teachers h1{
+    font-size:25px;
     color:#3d5998;
 }
 .mainbody-teachers hr{
@@ -230,4 +231,40 @@ body {
 
 .num-center{
     text-align: center;
+}
+
+/*STUDENT GRADES*/
+.mainbody-grades{
+    margin-left:15px;
+    margin-top:10px;
+}
+
+.mainbody-grades h3{
+    color:#3d5998;
+}
+
+.mainbody-grades th{
+    width: 150px;
+    text-align: left;
+    font-size: 10px;
+    background-color: #efefef;
+}
+
+.mainbody-grades td{
+    text-align: left;
+    padding-left: 10px;
+    font-size: 10px;
+    background-color: #efefef;
+}
+
+.td-col1{
+    width: 380px;
+}
+
+.td-col2{
+    width: 250px;
+}
+
+.td-col3{
+    width: 80px;
 }
