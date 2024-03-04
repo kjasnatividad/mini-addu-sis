@@ -20,15 +20,36 @@ body {
 }
 
 /*TEACHERS*/
+.mainbody-teachers{
+    margin-left:15px;
+    margin-top:10px;
+}
 .mainbody-teachers h1{
     font-size:25px;
     color:#3d5998;
-    margin-left:20px;
-    margin-top:25px;
-
 }
 
+.info-heading{
+    display:flex;
+    align-items:center;
+    margin-left:15px;
+}
+.sub-info h1{
+    font-size: 12px;
+    color:black;
+}
+.triangle{
+    width:0;
+    height:0;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-top: 6px solid black;
+    display: inline-block;
+    margin-right: 4px;
+}
+.info-table td{
 
+}
 /*-----------------------*/
 .student-profile p{
     color:#3d5998;
