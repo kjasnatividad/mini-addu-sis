@@ -19,6 +19,22 @@ body {
     display:flex;
 }
 
+/*TEACHERS*/
+.mainbody-teachers h1{
+    font-size:25px;
+    color:#3d5998;
+    margin-left:20px;
+    margin-top:25px;
+
+}
+
+
+/*-----------------------*/
+.student-profile p{
+    color:#3d5998;
+    cursor:pointer;
+}
+
 .head-sis p{
     font-size:20px;
     color:white;
