@@ -24,33 +24,101 @@ body {
     margin-left:15px;
     margin-top:10px;
 }
+.teachers-container {
+    width:1190px;
+    position: relative;
+    padding: 10px;
+    border: 1px solid #959595;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+}
+.teachers-container::before {
+    content: "▼ Class List"; /* Add the desired text */
+    position: absolute;
+    top: -8px; /* Adjust this value as needed */
+    left: 16px;
+    background-color: #ffffff; /* Match the background color of the container */
+    padding: 0 3px; /* Adjust padding as needed */
+    font-size: 12px;
+    color: #000000; /* Match the color of the h1 in .mainbody-teachers */
+}
 .mainbody-teachers h1{
     font-size:25px;
     color:#3d5998;
 }
-
-.info-heading{
-    display:flex;
-    align-items:center;
-    margin-left:15px;
+.mainbody-teachers hr{
+    height: 1px;
+    background-color: transparent; 
+    border: 1px solid #959595;
 }
-.sub-info h1{
-    font-size: 12px;
-    color:black;
+.info-table td, th{
+    background-color: #efefef;
+    text-align: left;
+    padding: 5px;
 }
-.triangle{
-    width:0;
-    height:0;
-    border-left: 3px solid transparent;
-    border-right: 3px solid transparent;
-    border-top: 6px solid black;
-    display: inline-block;
-    margin-right: 4px;
+.info-table th{
+    font-size:10px;
+    width:200px;
 }
 .info-table td{
+    font-size:10px;
+    width:950px;
+}
 
+.guidelines h1{
+    font-size:20px;
+    color:#000000;
+}
+.guidelines ol, li{
+    font-size:12px;
+}
+.submission-table td, th{
+    text-align: left;
+    padding: 8px;
+}
+.submission-table th{
+    font-size: 10px;
+    color:#ffffff;
+    background-color: #757575;
+}
+.submission-table td{
+    font-size: 12px;
+    color:#000000;
+}
+.teacher-table-row1{
+    background-color:#e4e4e4;
+}
+.teacher-table-row2{
+    background-color:#efefef;
+}
+.code{
+    width:90px;
+}
+.sname{
+    width:250px;
+}
+.final{
+    width:134px;
+}
+.final select{
+    width:150px;
+}
+.grd-type{
+    width:100px;
+}
+.yrlvl{
+    width:100px;
+}
+.acad-status{
+    width:120px;
+}
+.entry{
+    width:120px;
+}
+.entry-yrlvl{
+    width:120px
 }
 /*-----------------------*/
+
 .student-profile p{
     color:#3d5998;
     cursor:pointer;
