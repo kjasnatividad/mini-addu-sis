@@ -120,3 +120,48 @@ body {
     font-weight: bold;
 }
 
+/*COURSE LIST*/
+.mainbody-student{
+    margin-left:15px;
+    margin-top:10px;
+}
+
+.courses-info{
+    width:1190px;
+    position: relative;
+    padding: 10px;
+    border: 1px solid #959595;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+}
+
+.mainbody-student h3{
+    color:#3d5998;
+}
+
+.mainbody-student th{
+    padding: 5px;
+    text-align: left;
+    color: #fffff9;
+    font-size: 12px;
+    background-color: #757575;
+}
+
+.mainbody-student td{
+    font-size: 12px;
+    padding: 5px;
+    
+}
+
+.dark-gray{
+    background-color: #e4e4e4;
+    height: 30px;
+}
+
+.light-gray{
+    background-color: #efefef;
+    height: 30px;
+}
+
+.num-center{
+    text-align: center;
+}
