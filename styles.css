@@ -41,8 +41,7 @@ body {
     font-size: 12px;
     color: #000000; /* Match the color of the h1 in .mainbody-teachers */
 }
-.mainbody-teachers h1{
-    font-size:25px;
+.mainbody-teachers h3{
     color:#3d5998;
 }
 .mainbody-teachers hr{
@@ -243,14 +242,14 @@ body {
     color:#3d5998;
 }
 
-.mainbody-grades th{
+.stud-info-table th{
     width: 150px;
     text-align: left;
     font-size: 10px;
     background-color: #efefef;
 }
 
-.mainbody-grades td{
+.stud-info-table td{
     text-align: left;
     padding-left: 10px;
     font-size: 10px;
@@ -258,7 +257,7 @@ body {
 }
 
 .td-col1{
-    width: 380px;
+    width: 320px;
 }
 
 .td-col2{
@@ -267,4 +266,72 @@ body {
 
 .td-col3{
     width: 80px;
+}
+.mainbody-grades hr{
+    height: 1px;
+    background-color: transparent; 
+    border: 1px solid #959595;
+}
+.grades-table td, th{
+    padding: 8px;
+}
+.grades-table td{
+    font-size: 12px;
+    color:#000000;
+}
+.grades-table th{
+    font-size: 10px;
+    color:#ffffff;
+    background-color: #757575;
+}
+.grade-table-row1{
+    background-color:#e4e4e4;
+}
+.grade-table-row2{
+    background-color:#efefef;
+}
+.subj-no{
+    width:50px;
+}
+.desc-title{
+    width:560px;
+}
+.qpi{
+    width:560px;
+    text-align:right;
+    font-weight:bold;
+}
+.prelim{
+    width:80px;
+    text-align: center;
+}
+.midterm{
+    width:80px;
+    text-align: center;
+}
+.prefinal{
+    width:80px;
+    text-align: center;
+}
+.final{
+    width:80px;
+    text-align: center;
+    font-weight: bold;
+}
+.units{
+    width:60px;
+}
+.credit{
+    width:60px;
+}
+.legend p{
+    font-size:13px;
+}
+.legend li{
+    font-size:12px;
+    margin-left:20px;
+}
+.legend img{
+    width:15px;
+    height:15px;
 }
