@@ -1,195 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Course List</title>
-    <link rel="stylesheet" type="text/css" href="./styles.css"/>
-</head>
-<body>
-    <header id = "main-head">
-        <img src="/images/addu-logo.png">
-        <div class="head-sis">
-            <p>STUDENT INFORMATION SYSTEM</p>
-            <p class="subhead">ATENEO DE DAVAO UNIVERSITY</p>
-        </div>
+    <!--<link rel="stylesheet" type="text/css" href="./styles.css" /> -->
+  </head>
+  <body>
+    <header id="main-head">
+      <img src="images/addu-logo.png" />
+      <div class="head-sis">
+        <p>STUDENT INFORMATION SYSTEM</p>
+        <p class="subhead">ATENEO DE DAVAO UNIVERSITY</p>
+      </div>
     </header>
     <div id="container">
-        <nav class = left-menu>  
-            <div class = "student-profile">
-                <img src = "images/student-profile.jpg">
-                <p> <b>Juan Dela Cruz</b> <br> Edit My Profile</p>
-            </div>
-            <ul>
-                <li class = "title-menu">TASK</li>
-                <li class = "active-page"><a href="courselist.html">Course List</a></li>
-                <li><a href="studentgrades.html">Grades</a></li>
-                <li><a href="teacher.html">Grades Submission(Teacher)</a></li>
-            </ul>
-        </nav>
-        <div class="mainbody-student">
-            <h3>Course List</h3>
-            <div class = "courses-info">
-                <table>
-                    <thead>
-                        <tr>
-                            <th style="width: 100px;">COURSE CODE</th>
-                            <th style="width: 400px;">COURSE NAME</th>
-                            <th style="width: 150px;">TOTAL NO. OF SLOTS</th>
-                            <th style="width: 120px;">OCCUPIED SLOTS</th>
-                            <th style="width: 120px;">REMAINING SLOTS</th>
-                            <th style="width: 350px;">SCHEDULE</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class = dark-gray>
-                            <td>CS 2240</td>
-                            <td>APPLICATIONS DEVELOPMENT AND EMERGING TECHNOLOGIES</td>
-                            <td class = num-center>40</td>
-                            <td class = num-center>10</td>
-                            <td class = num-center>30</td>
-                            <td>* 7:40A-9:10A F612 MW * 9:50A-11:50A F612 F *</td>
-                        </tr>
-                        <tr class = light-gray>
-                            <td>GE 1213</td>
-                            <td>LIFE AND WORKS OF RIZAL</td>
-                            <td class = num-center>40</td>
-                            <td class = num-center>20</td>
-                            <td class = num-center>20</td>
-                            <td>* 5:50P-7:20P F312 TTh *</td>
-                        </tr>
-                        <tr class = dark-gray>
-                            <td>IT 2239</td>
-                            <td>FUNDAMENTALS OF DATABASE SYSTEMS</td>
-                            <td class = num-center>40</td>
-                            <td class = num-center>30</td>
-                            <td class = num-center>10</td>
-                            <td>* 7:40A-10:10A F609 TTh *</td>
-                        </tr>
-                        <tr class = light-gray>
-                            <td>IT 2241</td>
-                            <td>EVENT-DRIVEN PROGRAMMING</td>
-                            <td class = num-center>40</td>
-                            <td class = num-center>25</td>
-                            <td class = num-center>15</td>
-                            <td>* 2:05P-4:35P F605 TTh *</td>
-                        </tr>
-                        <tr class = dark-gray>
-                            <td>IT 2242</td>
-                            <td>STATISTICS FOR RESEARCH</td>
-                            <td class = num-center>40</td>
-                            <td class = num-center>35</td>
-                            <td class = num-center>5</td>
-                            <td>* 9:20A-10:50A D404 MW *</td>
-                        </tr>
-                        <tr class = light-gray>
-                            <td>IT 2243</td>
-                            <td>IT ELECTIVE 1</td>
-                            <td class = num-center>40</td>
-                            <td class = num-center>25</td>
-                            <td class = num-center>15</td>
-                            <td>* 12:25P-1:55P F610 MW * 1:00P-3:00P F610 F *</td>
-                        </tr>
-                        <tr class = dark-gray>
-                            <td>PE 2217</td>
-                            <td>PATH-FIT 4: TEAM SPORTS, GROUP EXERCISE AND RECREATIONAL ACTIVITIES</td>
-                            <td class = num-center>40</td>
-                            <td class = num-center>40</td>
-                            <td class = num-center>0</td>
-                            <td>* 5:50P-7:50P M700A M *</td>
-                        </tr>
-                        <tr class = light-gray>
-                            <td>ASF 1203</td>
-                            <td>NATIONAL SERVICE TRAINING PROGRAM - CIVIC WELFARE TRAINING SERVICE 2</td>
-                            <td class = num-center>40</td>
-                            <td class = num-center>40</td>
-                            <td class = num-center>0</td>
-                            <td>* 1:30P-4:30P F405 Sat *</td>
-                        </tr>
-                        <tr class = dark-gray>
-                            <td>Philo 1000</td>
-                            <td>PHILOSOPHY</td>
-                            <td class = num-center>40</td>
-                            <td class = num-center>40</td>
-                            <td class = num-center>0</td>
-                            <td>* 7:40A-9:10A F408 MW *</td>
-                        </tr>
-                        <tr class = light-gray>
-                            <td>GE 1105</td>
-                            <td>UNDERSTANDING THE SELF</td>
-                            <td class = num-center>40</td>
-                            <td class = num-center>20</td>
-                            <td class = num-center>20</td>
-                            <td>* 9:20A-10:50A F312 Tth *</td>
-                        </tr>
-                        <tr class = dark-gray>
-                            <td>GE 1106</td>
-                            <td>PURPOSIVE COMMUNICATION</td>
-                            <td class = num-center>40</td>
-                            <td class = num-center>30</td>
-                            <td class = num-center>10</td>
-                            <td>* 7:40A-9:10A F510 MW *</td>
-                        </tr>
-                        <tr class = light-gray>
-                            <td>GE 1108</td>
-                            <td>MATHEMATICS IN THE MODERN WORLD</td>
-                            <td class = num-center>40</td>
-                            <td class = num-center>15</td>
-                            <td class = num-center>25</td>
-                            <td>* 7:40A-9:10A F709 MW *</td>
-                        </tr>
-                        <tr class = dark-gray>
-                            <td>Theo 1000</td>
-                            <td>THEOLOGY</td>
-                            <td class = num-center>40</td>
-                            <td class = num-center>40</td>
-                            <td class = num-center>0</td>
-                            <td>* 7:40A-9:10A F508 TTh *</td>
-                        </tr>
-                        <tr class = light-gray>
-                            <td>GE 1210</td>
-                            <td>READINGS IN PHILIPPINE HISTORY</td>
-                            <td class = num-center>40</td>
-                            <td class = num-center>35</td>
-                            <td class = num-center>5</td>
-                            <td>* 7:30P-9:00P F702 MW *</td>
-                        </tr>
-                        <tr class = dark-gray>
-                            <td>GE 1211</td>
-                            <td>THE CONTEMPORARY WORLD</td>
-                            <td class = num-center>40</td>
-                            <td class = num-center>38</td>
-                            <td class = num-center>2</td>
-                            <td>* 7:40A-9:10A F305 MW *</td>
-                        </tr>
-                        <tr class = light-gray>
-                            <td>GE 1212</td>
-                            <td>SCIENCE, TECHNOLOGY AND SOCIETY</td>
-                            <td class = num-center>40</td>
-                            <td class = num-center>35</td>
-                            <td class = num-center>5</td>
-                            <td>* 7:30P-9:00P F702 MW *</td>
-                        </tr>
-                        <tr class = dark-gray>
-                            <td>GE 1107</td>
-                            <td>ART APPRECIATION</td>
-                            <td class = num-center>40</td>
-                            <td class = num-center>38</td>
-                            <td class = num-center>2</td>
-                            <td>* 7:40A-9:10A F305 MW *</td>
-                        </tr>
-                        <tr class = light-gray>
-                            <td>GE 1109</td>
-                            <td>ETHICS</td>
-                            <td class = num-center>40</td>
-                            <td class = num-center>35</td>
-                            <td class = num-center>5</td>
-                            <td>* 7:30P-9:00P F702 MW *</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>  
+      <nav class="left-menu">
+        <div class="student-profile">
+          <img src="images/student-profile.jpg" />
+          <p>
+            <b>Juan Dela Cruz</b> <br />
+            Edit My Profile
+          </p>
+        </div>
+        <ul>
+          <li class="title-menu">TASK</li>
+          <li class="active-page"><a href="courselist.html">Course List</a></li>
+          <li><a href="studentgrades.html">Grades</a></li>
+          <li><a href="teacher.html">Grades Submission(Teacher)</a></li>
+        </ul>
+      </nav>
+      <div class="mainbody-student">
+        <h3>Course List</h3>
+        <div class="courses-info">
+          <table>
+            <thead>
+              <tr>
+                <th style="width: 100px">COURSE CODE</th>
+                <th style="width: 400px">COURSE NAME</th>
+                <th style="width: 150px">TOTAL NO. OF SLOTS</th>
+                <th style="width: 120px">OCCUPIED SLOTS</th>
+                <th style="width: 120px">REMAINING SLOTS</th>
+                <th style="width: 350px">SCHEDULE</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="dark-gray">
+                <td>CS 2240</td>
+                <td>APPLICATIONS DEVELOPMENT AND EMERGING TECHNOLOGIES</td>
+                <td class="num-center">40</td>
+                <td class="num-center">10</td>
+                <td class="num-center">30</td>
+                <td>* 7:40A-9:10A F612 MW * 9:50A-11:50A F612 F *</td>
+              </tr>
+              <tr class="light-gray">
+                <td>GE 1213</td>
+                <td>LIFE AND WORKS OF RIZAL</td>
+                <td class="num-center">40</td>
+                <td class="num-center">20</td>
+                <td class="num-center">20</td>
+                <td>* 5:50P-7:20P F312 TTh *</td>
+              </tr>
+              <tr class="dark-gray">
+                <td>IT 2239</td>
+                <td>FUNDAMENTALS OF DATABASE SYSTEMS</td>
+                <td class="num-center">40</td>
+                <td class="num-center">30</td>
+                <td class="num-center">10</td>
+                <td>* 7:40A-10:10A F609 TTh *</td>
+              </tr>
+              <tr class="light-gray">
+                <td>IT 2241</td>
+                <td>EVENT-DRIVEN PROGRAMMING</td>
+                <td class="num-center">40</td>
+                <td class="num-center">25</td>
+                <td class="num-center">15</td>
+                <td>* 2:05P-4:35P F605 TTh *</td>
+              </tr>
+              <tr class="dark-gray">
+                <td>IT 2242</td>
+                <td>STATISTICS FOR RESEARCH</td>
+                <td class="num-center">40</td>
+                <td class="num-center">35</td>
+                <td class="num-center">5</td>
+                <td>* 9:20A-10:50A D404 MW *</td>
+              </tr>
+              <tr class="light-gray">
+                <td>IT 2243</td>
+                <td>IT ELECTIVE 1</td>
+                <td class="num-center">40</td>
+                <td class="num-center">25</td>
+                <td class="num-center">15</td>
+                <td>* 12:25P-1:55P F610 MW * 1:00P-3:00P F610 F *</td>
+              </tr>
+              <tr class="dark-gray">
+                <td>PE 2217</td>
+                <td>
+                  PATH-FIT 4: TEAM SPORTS, GROUP EXERCISE AND RECREATIONAL
+                  ACTIVITIES
+                </td>
+                <td class="num-center">40</td>
+                <td class="num-center">40</td>
+                <td class="num-center">0</td>
+                <td>* 5:50P-7:50P M700A M *</td>
+              </tr>
+              <tr class="light-gray">
+                <td>ASF 1203</td>
+                <td>
+                  NATIONAL SERVICE TRAINING PROGRAM - CIVIC WELFARE TRAINING
+                  SERVICE 2
+                </td>
+                <td class="num-center">40</td>
+                <td class="num-center">40</td>
+                <td class="num-center">0</td>
+                <td>* 1:30P-4:30P F405 Sat *</td>
+              </tr>
+              <tr class="dark-gray">
+                <td>Philo 1000</td>
+                <td>PHILOSOPHY</td>
+                <td class="num-center">40</td>
+                <td class="num-center">40</td>
+                <td class="num-center">0</td>
+                <td>* 7:40A-9:10A F408 MW *</td>
+              </tr>
+              <tr class="light-gray">
+                <td>GE 1105</td>
+                <td>UNDERSTANDING THE SELF</td>
+                <td class="num-center">40</td>
+                <td class="num-center">20</td>
+                <td class="num-center">20</td>
+                <td>* 9:20A-10:50A F312 Tth *</td>
+              </tr>
+              <tr class="dark-gray">
+                <td>GE 1106</td>
+                <td>PURPOSIVE COMMUNICATION</td>
+                <td class="num-center">40</td>
+                <td class="num-center">30</td>
+                <td class="num-center">10</td>
+                <td>* 7:40A-9:10A F510 MW *</td>
+              </tr>
+              <tr class="light-gray">
+                <td>GE 1108</td>
+                <td>MATHEMATICS IN THE MODERN WORLD</td>
+                <td class="num-center">40</td>
+                <td class="num-center">15</td>
+                <td class="num-center">25</td>
+                <td>* 7:40A-9:10A F709 MW *</td>
+              </tr>
+              <tr class="dark-gray">
+                <td>Theo 1000</td>
+                <td>THEOLOGY</td>
+                <td class="num-center">40</td>
+                <td class="num-center">40</td>
+                <td class="num-center">0</td>
+                <td>* 7:40A-9:10A F508 TTh *</td>
+              </tr>
+              <tr class="light-gray">
+                <td>GE 1210</td>
+                <td>READINGS IN PHILIPPINE HISTORY</td>
+                <td class="num-center">40</td>
+                <td class="num-center">35</td>
+                <td class="num-center">5</td>
+                <td>* 7:30P-9:00P F702 MW *</td>
+              </tr>
+              <tr class="dark-gray">
+                <td>GE 1211</td>
+                <td>THE CONTEMPORARY WORLD</td>
+                <td class="num-center">40</td>
+                <td class="num-center">38</td>
+                <td class="num-center">2</td>
+                <td>* 7:40A-9:10A F305 MW *</td>
+              </tr>
+              <tr class="light-gray">
+                <td>GE 1212</td>
+                <td>SCIENCE, TECHNOLOGY AND SOCIETY</td>
+                <td class="num-center">40</td>
+                <td class="num-center">35</td>
+                <td class="num-center">5</td>
+                <td>* 7:30P-9:00P F702 MW *</td>
+              </tr>
+              <tr class="dark-gray">
+                <td>GE 1107</td>
+                <td>ART APPRECIATION</td>
+                <td class="num-center">40</td>
+                <td class="num-center">38</td>
+                <td class="num-center">2</td>
+                <td>* 7:40A-9:10A F305 MW *</td>
+              </tr>
+              <tr class="light-gray">
+                <td>GE 1109</td>
+                <td>ETHICS</td>
+                <td class="num-center">40</td>
+                <td class="num-center">35</td>
+                <td class="num-center">5</td>
+                <td>* 7:30P-9:00P F702 MW *</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>

@@ -1,313 +1,335 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Grades Submission</title>
-    <link rel="stylesheet" type="text/css" href="./styles.css"/>
-</head>
-<body>
-    <header id = "main-head">
-        <img src="/images/addu-logo.png">
-        <div class="head-sis">
-            <p>STUDENT INFORMATION SYSTEM</p>
-            <p class="subhead">ATENEO DE DAVAO UNIVERSITY</p>
-        </div>
+    <!--<link rel="stylesheet" type="text/css" href="./styles.css" /> -->
+  </head>
+  <body>
+    <header id="main-head">
+      <img src="images/addu-logo.png" />
+      <div class="head-sis">
+        <p>STUDENT INFORMATION SYSTEM</p>
+        <p class="subhead">ATENEO DE DAVAO UNIVERSITY</p>
+      </div>
     </header>
     <div id="container">
-        <nav class = left-menu>
-            <div class = "student-profile">
-                <img src = "images/student-profile.jpg">
-                <p> <b>Dwight Ian De Jesus</b> <br> Edit My Profile</p>
-            </div>
-            <ul>
-                <li class = "title-menu">TASK</li>
-                <li><a href="courselist.html">Course List</a></li>
-                <li><a href="studentgrades.html">Grades</a></li>
-                <li class = "active-page"><a href="teacher.html">Grades Submission(Teacher)</a></li>
-            </ul>
-        </nav>
-        <div class="mainbody-teachers">
-            <h3>Submission of Grades</h3>
-            <div class="teachers-container">
-                <div class="info-table">
-                    <table>
-                        <tr>
-                            <th>Code/Subject:</th>
-                            <td>4-114/IT 2241 - EVENT DRIVEN PROGRAMMING</td>
-                        </tr>
-                        <tr>
-                            <th>Schedule:</th>
-                            <td>* 2:05-4:35 F605 TTh *</td>
-                        </tr>
-                        <tr>
-                            <th>Academic Period:</th>
-                            <td>2nd Semester 2023-2024</td>
-                        </tr>
-                        <tr>
-                            <th>Grading Period:</th>
-                            <td>Final</td>
-                        </tr>
-                    </table>
-                </div>
-                <hr>
-                <div class="guidelines">
-                    <h1>Grade Encoding Guidelines</h1>
-                    <ol>
-                        <li>Grades in the NEW Grading System must be encoded as A,B+,B,C+,C,D,F,FD,WP.</li>
-                        <li>Non FYDP Grades in the OLD Grading System must be from 65 to 100</li>
-                        <li>FYDP Grades in the NEW Grading System must be enconded as A,B+,B,C+,C,D,F,FD,WP.</li>
-                        <li>FYDP Grades in the OLD Grading System must be encoded as <br> O - Outstanding, HS - Highly Satisfactory, MS - Moderately Satisfactory, F - Fair, P - Poor.</li>
-                        <li>NE Grades will not be accepted. Students who have not taken exams must be provided the minimum grade. After the exam has been taken, the teacher should file a grade correction form at the Registrar's Office.</li>
-                        <li>Select AUD for Audit students.</li>
-                    </ol>
-                </div>
-                <div class="submission-table">
-                    <table>
-                        <tr>
-                            <th class="code">CODE</th>
-                            <th class="sname">STUDENT NAME</th>
-                            <th class="final">FINAL</th>
-                            <th class="grd-type">GRD. TYPE</th>
-                            <th class="yrlvl">YEAR LVL</th>
-                            <th class="acad-status">ACAD. STATUS</th>
-                            <th class="entry">YR. OF ENTRY</th>
-                            <th class="entry-yrlvl">ENTRY YR. LVL</th>
-                        </tr>
-                        <tr class="teacher-table-row1">
-                            <td class="code">1001</td>
-                            <td class="sname">Arapoc, Beatrice Jan Gomez</td>
-                            <td class="final">
-                                <select>
-                                    <option></option>
-                                    <option>A</option>
-                                    <option>B+</option>
-                                    <option>B</option>
-                                    <option>C+</option>
-                                    <option>C</option>
-                                    <option>D</option>
-                                    <option>F</option>
-                                    <option>FD</option>
-                                    <option>WP</option>
-                                </select>
-                            </td>
-                            <td class="grd-type">NEW</td>
-                            <td class="yrlvl">2</td>
-                            <td class="acad-status">Regular</td>
-                            <td class="entry">2022</td>
-                            <td class="entry-yrlvl>">1</td>
-                        </tr>
-                        <tr class="teacher-table-row2">
-                            <td class="code">1002</td>
-                            <td class="sname">Dela Cruz, Juan</td>
-                            <td class="final">
-                                <select>
-                                    <option></option>
-                                    <option>A</option>
-                                    <option>B+</option>
-                                    <option>B</option>
-                                    <option>C+</option>
-                                    <option>C</option>
-                                    <option>D</option>
-                                    <option>F</option>
-                                    <option>FD</option>
-                                    <option>WP</option>
-                                </select>
-                            </td>
-                            <td class="grd-type">NEW</td>
-                            <td class="yrlvl">2</td>
-                            <td class="acad-status">Regular</td>
-                            <td class="entry">2019</td>
-                            <td class="entry-yrlvl>">1</td>
-                        </tr>
-                        <tr class="teacher-table-row1">
-                            <td class="code">1003</td>
-                            <td class="sname">Garcia, Roberto Hernandez</td>
-                            <td class="final">
-                                <select>
-                                    <option></option>
-                                    <option>A</option>
-                                    <option>B+</option>
-                                    <option>B</option>
-                                    <option>C+</option>
-                                    <option>C</option>
-                                    <option>D</option>
-                                    <option>F</option>
-                                    <option>FD</option>
-                                    <option>WP</option>
-                                </select>
-                            </td>
-                            <td class="grd-type">NEW</td>
-                            <td class="yrlvl">2</td>
-                            <td class="acad-status">Regular</td>
-                            <td class="entry">2022</td>
-                            <td class="entry-yrlvl>">1</td>
-                        </tr>
-                        <tr class="teacher-table-row2">
-                            <td class="code">1004</td>
-                            <td class="sname">Hernandez, Jose Dela Cruz</td>
-                            <td class="final">
-                                <select>
-                                    <option></option>
-                                    <option>A</option>
-                                    <option>B+</option>
-                                    <option>B</option>
-                                    <option>C+</option>
-                                    <option>C</option>
-                                    <option>D</option>
-                                    <option>F</option>
-                                    <option>FD</option>
-                                    <option>WP</option>
-                                </select>
-                            </td>
-                            <td class="grd-type">NEW</td>
-                            <td class="yrlvl">1</td>
-                            <td class="acad-status">Regular</td>
-                            <td class="entry">2022</td>
-                            <td class="entry-yrlvl>">1</td>
-                        </tr>
-                        <tr class="teacher-table-row1">
-                            <td class="code">1005</td>
-                            <td class="sname">Lim, Evelyn Tan</td>
-                            <td class="final">
-                                <select>
-                                    <option></option>
-                                    <option>A</option>
-                                    <option>B+</option>
-                                    <option>B</option>
-                                    <option>C+</option>
-                                    <option>C</option>
-                                    <option>D</option>
-                                    <option>F</option>
-                                    <option>FD</option>
-                                    <option>WP</option>
-                                </select>
-                            </td>
-                            <td class="grd-type">NEW</td>
-                            <td class="yrlvl">1</td>
-                            <td class="acad-status">Regular</td>
-                            <td class="entry">2022</td>
-                            <td class="entry-yrlvl>">1</td>
-                        </tr>
-                        <tr class="teacher-table-row2">
-                            <td class="code">1006</td>
-                            <td class="sname">Lim, Joash Miguel</td>
-                            <td class="final">
-                                <select>
-                                    <option></option>
-                                    <option>A</option>
-                                    <option>B+</option>
-                                    <option>B</option>
-                                    <option>C+</option>
-                                    <option>C</option>
-                                    <option>D</option>
-                                    <option>F</option>
-                                    <option>FD</option>
-                                    <option>WP</option>
-                                </select>
-                            </td>
-                            <td class="grd-type">NEW</td>
-                            <td class="yrlvl">2</td>
-                            <td class="acad-status">Regular</td>
-                            <td class="entry">2020</td>
-                            <td class="entry-yrlvl>">1</td>
-                        </tr>
-                        <tr class="teacher-table-row1">
-                            <td class="code">1007</td>
-                            <td class="sname">Magno, Lorna Reyes</td>
-                            <td class="final">
-                                <select>
-                                    <option></option>
-                                    <option>A</option>
-                                    <option>B+</option>
-                                    <option>B</option>
-                                    <option>C+</option>
-                                    <option>C</option>
-                                    <option>D</option>
-                                    <option>F</option>
-                                    <option>FD</option>
-                                    <option>WP</option>
-                                </select>
-                            </td>
-                            <td class="grd-type">NEW</td>
-                            <td class="yrlvl">2</td>
-                            <td class="acad-status">Regular</td>
-                            <td class="entry">2020</td>
-                            <td class="entry-yrlvl>">1</td>
-                        </tr>
-                        <tr class="teacher-table-row2">
-                            <td class="code">1008</td>
-                            <td class="sname">Natividad, Karl Justin Angelo Salon</td>
-                            <td class="final">
-                                <select>
-                                    <option></option>
-                                    <option>A</option>
-                                    <option>B+</option>
-                                    <option>B</option>
-                                    <option>C+</option>
-                                    <option>C</option>
-                                    <option>D</option>
-                                    <option>F</option>
-                                    <option>FD</option>
-                                    <option>WP</option>
-                                </select>
-                            </td>
-                            <td class="grd-type">NEW</td>
-                            <td class="yrlvl">2</td>
-                            <td class="acad-status">Regular</td>
-                            <td class="entry">2022</td>
-                            <td class="entry-yrlvl>">1</td>
-                        </tr>
-                        <tr class="teacher-table-row1">
-                            <td class="code">1009</td>
-                            <td class="sname">Reyes, Anita Garcia</td>
-                            <td class="final">
-                                <select>
-                                    <option></option>
-                                    <option>A</option>
-                                    <option>B+</option>
-                                    <option>B</option>
-                                    <option>C+</option>
-                                    <option>C</option>
-                                    <option>D</option>
-                                    <option>F</option>
-                                    <option>FD</option>
-                                    <option>WP</option>
-                                </select>
-                            </td>
-                            <td class="grd-type">NEW</td>
-                            <td class="yrlvl">2</td>
-                            <td class="acad-status">Regular</td>
-                            <td class="entry">2019</td>
-                            <td class="entry-yrlvl>">1</td>
-                        </tr>
-                        <tr class="teacher-table-row2">
-                            <td class="code">1010</td>
-                            <td class="sname">Santos, Ricardo Reyes</td>
-                            <td class="final">
-                                <select>
-                                    <option></option>
-                                    <option>A</option>
-                                    <option>B+</option>
-                                    <option>B</option>
-                                    <option>C+</option>
-                                    <option>C</option>
-                                    <option>D</option>
-                                    <option>F</option>
-                                    <option>FD</option>
-                                    <option>WP</option>
-                                </select>
-                            </td>
-                            <td class="grd-type">NEW</td>
-                            <td class="yrlvl">2</td>
-                            <td class="acad-status">Regular</td>
-                            <td class="entry">2021</td>
-                            <td class="entry-yrlvl>">1</td>
-                        </tr>
-                    </table>
-                </div>
-            </div>
+      <nav class="left-menu">
+        <div class="student-profile">
+          <img src="images/student-profile.jpg" />
+          <p>
+            <b>Dwight Ian De Jesus</b> <br />
+            Edit My Profile
+          </p>
         </div>
+        <ul>
+          <li class="title-menu">TASK</li>
+          <li><a href="courselist.html">Course List</a></li>
+          <li><a href="studentgrades.html">Grades</a></li>
+          <li class="active-page">
+            <a href="teacher.html">Grades Submission(Teacher)</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="mainbody-teachers">
+        <h3>Submission of Grades</h3>
+        <div class="teachers-container">
+          <div class="info-table">
+            <table>
+              <tr>
+                <th>Code/Subject:</th>
+                <td>4-114/IT 2241 - EVENT DRIVEN PROGRAMMING</td>
+              </tr>
+              <tr>
+                <th>Schedule:</th>
+                <td>* 2:05-4:35 F605 TTh *</td>
+              </tr>
+              <tr>
+                <th>Academic Period:</th>
+                <td>2nd Semester 2023-2024</td>
+              </tr>
+              <tr>
+                <th>Grading Period:</th>
+                <td>Final</td>
+              </tr>
+            </table>
+          </div>
+          <hr />
+          <div class="guidelines">
+            <h1>Grade Encoding Guidelines</h1>
+            <ol>
+              <li>
+                Grades in the NEW Grading System must be encoded as
+                A,B+,B,C+,C,D,F,FD,WP.
+              </li>
+              <li>
+                Non FYDP Grades in the OLD Grading System must be from 65 to 100
+              </li>
+              <li>
+                FYDP Grades in the NEW Grading System must be enconded as
+                A,B+,B,C+,C,D,F,FD,WP.
+              </li>
+              <li>
+                FYDP Grades in the OLD Grading System must be encoded as <br />
+                O - Outstanding, HS - Highly Satisfactory, MS - Moderately
+                Satisfactory, F - Fair, P - Poor.
+              </li>
+              <li>
+                NE Grades will not be accepted. Students who have not taken
+                exams must be provided the minimum grade. After the exam has
+                been taken, the teacher should file a grade correction form at
+                the Registrar's Office.
+              </li>
+              <li>Select AUD for Audit students.</li>
+            </ol>
+          </div>
+          <div class="submission-table">
+            <table>
+              <tr>
+                <th class="code">CODE</th>
+                <th class="sname">STUDENT NAME</th>
+                <th class="final">FINAL</th>
+                <th class="grd-type">GRD. TYPE</th>
+                <th class="yrlvl">YEAR LVL</th>
+                <th class="acad-status">ACAD. STATUS</th>
+                <th class="entry">YR. OF ENTRY</th>
+                <th class="entry-yrlvl">ENTRY YR. LVL</th>
+              </tr>
+              <tr class="teacher-table-row1">
+                <td class="code">1001</td>
+                <td class="sname">Arapoc, Beatrice Jan Gomez</td>
+                <td class="final">
+                  <select>
+                    <option></option>
+                    <option>A</option>
+                    <option>B+</option>
+                    <option>B</option>
+                    <option>C+</option>
+                    <option>C</option>
+                    <option>D</option>
+                    <option>F</option>
+                    <option>FD</option>
+                    <option>WP</option>
+                  </select>
+                </td>
+                <td class="grd-type">NEW</td>
+                <td class="yrlvl">2</td>
+                <td class="acad-status">Regular</td>
+                <td class="entry">2022</td>
+                <td class="entry-yrlvl>">1</td>
+              </tr>
+              <tr class="teacher-table-row2">
+                <td class="code">1002</td>
+                <td class="sname">Dela Cruz, Juan</td>
+                <td class="final">
+                  <select>
+                    <option></option>
+                    <option>A</option>
+                    <option>B+</option>
+                    <option>B</option>
+                    <option>C+</option>
+                    <option>C</option>
+                    <option>D</option>
+                    <option>F</option>
+                    <option>FD</option>
+                    <option>WP</option>
+                  </select>
+                </td>
+                <td class="grd-type">NEW</td>
+                <td class="yrlvl">2</td>
+                <td class="acad-status">Regular</td>
+                <td class="entry">2019</td>
+                <td class="entry-yrlvl>">1</td>
+              </tr>
+              <tr class="teacher-table-row1">
+                <td class="code">1003</td>
+                <td class="sname">Garcia, Roberto Hernandez</td>
+                <td class="final">
+                  <select>
+                    <option></option>
+                    <option>A</option>
+                    <option>B+</option>
+                    <option>B</option>
+                    <option>C+</option>
+                    <option>C</option>
+                    <option>D</option>
+                    <option>F</option>
+                    <option>FD</option>
+                    <option>WP</option>
+                  </select>
+                </td>
+                <td class="grd-type">NEW</td>
+                <td class="yrlvl">2</td>
+                <td class="acad-status">Regular</td>
+                <td class="entry">2022</td>
+                <td class="entry-yrlvl>">1</td>
+              </tr>
+              <tr class="teacher-table-row2">
+                <td class="code">1004</td>
+                <td class="sname">Hernandez, Jose Dela Cruz</td>
+                <td class="final">
+                  <select>
+                    <option></option>
+                    <option>A</option>
+                    <option>B+</option>
+                    <option>B</option>
+                    <option>C+</option>
+                    <option>C</option>
+                    <option>D</option>
+                    <option>F</option>
+                    <option>FD</option>
+                    <option>WP</option>
+                  </select>
+                </td>
+                <td class="grd-type">NEW</td>
+                <td class="yrlvl">1</td>
+                <td class="acad-status">Regular</td>
+                <td class="entry">2022</td>
+                <td class="entry-yrlvl>">1</td>
+              </tr>
+              <tr class="teacher-table-row1">
+                <td class="code">1005</td>
+                <td class="sname">Lim, Evelyn Tan</td>
+                <td class="final">
+                  <select>
+                    <option></option>
+                    <option>A</option>
+                    <option>B+</option>
+                    <option>B</option>
+                    <option>C+</option>
+                    <option>C</option>
+                    <option>D</option>
+                    <option>F</option>
+                    <option>FD</option>
+                    <option>WP</option>
+                  </select>
+                </td>
+                <td class="grd-type">NEW</td>
+                <td class="yrlvl">1</td>
+                <td class="acad-status">Regular</td>
+                <td class="entry">2022</td>
+                <td class="entry-yrlvl>">1</td>
+              </tr>
+              <tr class="teacher-table-row2">
+                <td class="code">1006</td>
+                <td class="sname">Lim, Joash Miguel</td>
+                <td class="final">
+                  <select>
+                    <option></option>
+                    <option>A</option>
+                    <option>B+</option>
+                    <option>B</option>
+                    <option>C+</option>
+                    <option>C</option>
+                    <option>D</option>
+                    <option>F</option>
+                    <option>FD</option>
+                    <option>WP</option>
+                  </select>
+                </td>
+                <td class="grd-type">NEW</td>
+                <td class="yrlvl">2</td>
+                <td class="acad-status">Regular</td>
+                <td class="entry">2020</td>
+                <td class="entry-yrlvl>">1</td>
+              </tr>
+              <tr class="teacher-table-row1">
+                <td class="code">1007</td>
+                <td class="sname">Magno, Lorna Reyes</td>
+                <td class="final">
+                  <select>
+                    <option></option>
+                    <option>A</option>
+                    <option>B+</option>
+                    <option>B</option>
+                    <option>C+</option>
+                    <option>C</option>
+                    <option>D</option>
+                    <option>F</option>
+                    <option>FD</option>
+                    <option>WP</option>
+                  </select>
+                </td>
+                <td class="grd-type">NEW</td>
+                <td class="yrlvl">2</td>
+                <td class="acad-status">Regular</td>
+                <td class="entry">2020</td>
+                <td class="entry-yrlvl>">1</td>
+              </tr>
+              <tr class="teacher-table-row2">
+                <td class="code">1008</td>
+                <td class="sname">Natividad, Karl Justin Angelo Salon</td>
+                <td class="final">
+                  <select>
+                    <option></option>
+                    <option>A</option>
+                    <option>B+</option>
+                    <option>B</option>
+                    <option>C+</option>
+                    <option>C</option>
+                    <option>D</option>
+                    <option>F</option>
+                    <option>FD</option>
+                    <option>WP</option>
+                  </select>
+                </td>
+                <td class="grd-type">NEW</td>
+                <td class="yrlvl">2</td>
+                <td class="acad-status">Regular</td>
+                <td class="entry">2022</td>
+                <td class="entry-yrlvl>">1</td>
+              </tr>
+              <tr class="teacher-table-row1">
+                <td class="code">1009</td>
+                <td class="sname">Reyes, Anita Garcia</td>
+                <td class="final">
+                  <select>
+                    <option></option>
+                    <option>A</option>
+                    <option>B+</option>
+                    <option>B</option>
+                    <option>C+</option>
+                    <option>C</option>
+                    <option>D</option>
+                    <option>F</option>
+                    <option>FD</option>
+                    <option>WP</option>
+                  </select>
+                </td>
+                <td class="grd-type">NEW</td>
+                <td class="yrlvl">2</td>
+                <td class="acad-status">Regular</td>
+                <td class="entry">2019</td>
+                <td class="entry-yrlvl>">1</td>
+              </tr>
+              <tr class="teacher-table-row2">
+                <td class="code">1010</td>
+                <td class="sname">Santos, Ricardo Reyes</td>
+                <td class="final">
+                  <select>
+                    <option></option>
+                    <option>A</option>
+                    <option>B+</option>
+                    <option>B</option>
+                    <option>C+</option>
+                    <option>C</option>
+                    <option>D</option>
+                    <option>F</option>
+                    <option>FD</option>
+                    <option>WP</option>
+                  </select>
+                </td>
+                <td class="grd-type">NEW</td>
+                <td class="yrlvl">2</td>
+                <td class="acad-status">Regular</td>
+                <td class="entry">2021</td>
+                <td class="entry-yrlvl>">1</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
