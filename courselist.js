@@ -160,12 +160,9 @@ for (let course of courselist) {
     newCell.innerHTML = course[field];
 
     newCell.classList.add(
-      "px-2",
-      "py-1",
-      "text-sm",
+      "text-xs",
       "border",
       "border-white",
-      "border-2",
       "h-10"
     );
 
