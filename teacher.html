@@ -12,15 +12,15 @@
       <div class="flex flex-row items-center h-16 bg-blue-800">
         <img src="images/addu-logo.png" class="ml-20 w-12 h-12" />
         <div class="ml-2">
-            <p class="text-white text-lg">STUDENT INFORMATION SYSTEM</p>
-            <p class="text-sm text-gray-400">ATENEO DE DAVAO UNIVERSITY</p>
+          <p class="text-white text-lg">STUDENT INFORMATION SYSTEM</p>
+          <p class="text-sm text-gray-400">ATENEO DE DAVAO UNIVERSITY</p>
         </div>
       </div>
     </header>
     <div class="flex flex-row ml-2 mt-5">
       <nav class="border-r border-dashed border-gray-300 pr-10">
         <div class="flex flex-row">
-          <img src="images/student-profile.jpg" class="w-12 h-12 mr-2"/>
+          <img src="images/student-profile.jpg" class="w-12 h-12 mr-2" />
           <p class="text-sm text-blue-800">
             <b>Juan Dela Cruz</b> <br />
             Edit My Profile
@@ -28,14 +28,19 @@
         </div>
         <ul class="ml-2 mt-2">
           <li class="text-sm text-gray-500 font-bold">TASK</li>
-          <li class="text-xs pt-1"><a href="courselist.html">Course List</a></li>
+          <li class="text-xs pt-1">
+            <a href="courselist.html">Course List</a>
+          </li>
           <li class="text-xs pt-1"><a href="studentgrades.html">Grades</a></li>
-          <li class="text-xs font-bold pt-1"><a href="teacher.html">Grades Submission(Teacher)</a></li>
+          <li class="text-xs font-bold pt-1">
+            <a href="teacher.html">Grades Submission(Teacher)</a>
+          </li>
         </ul>
       </nav>
-      <div class="pl-10">
-        <h3>Submission of Grades</h3>
-        <div class="teachers-container">
+      <div class="ml-6">
+        <h3 class="text-xl font-bold text-blue-800">Submission of Grades</h3>
+
+        <div class="border border-gray-300 shadow-md p-5">
           <div class="info-table">
             <table>
               <tr>
@@ -57,9 +62,10 @@
             </table>
           </div>
           <hr />
+
           <div class="guidelines">
-            <h1>Grade Encoding Guidelines</h1>
-            <ol>
+            <h1 class="text-xl font-bold">Grade Encoding Guidelines</h1>
+            <ol class="list-decimal pl-10 py-3 text-xs">
               <li>
                 Grades in the NEW Grading System must be encoded as
                 A,B+,B,C+,C,D,F,FD,WP.
@@ -78,30 +84,48 @@
               </li>
               <li>
                 NE Grades will not be accepted. Students who have not taken
-                exams must be provided the minimum grade. <br/>After the exam has
+                exams must be provided the minimum grade. After the exam has
                 been taken, the teacher should file a grade correction form at
                 the Registrar's Office.
               </li>
               <li>Select AUD for Audit students.</li>
             </ol>
           </div>
+
           <div class="submission-table">
-            <table>
-              <tr>
-                <th class="code">CODE</th>
-                <th class="sname">STUDENT NAME</th>
-                <th class="final">FINAL</th>
-                <th class="grd-type">GRD. TYPE</th>
-                <th class="yrlvl">YEAR LVL</th>
-                <th class="acad-status">ACAD. STATUS</th>
-                <th class="entry">YR. OF ENTRY</th>
-                <th class="entry-yrlvl">ENTRY YR. LVL</th>
+            <table class="w-full">
+              <tr class="border bg-zinc-500 text-white">
+                <th class="text-xs border border-white border-2 p-2">CODE</th>
+                <th class="text-xs border border-white border-2 p-2">
+                  STUDENT NAME
+                </th>
+                <th class="text-xs border border-white border-2 p-2">FINAL</th>
+                <th class="text-xs border border-white border-2 p-2">
+                  GRD. TYPE
+                </th>
+                <th class="text-xs border border-white border-2 p-2">
+                  YEAR LVL
+                </th>
+                <th class="text-xs border border-white border-2 p-2">
+                  ACAD. STATUS
+                </th>
+                <th class="text-xs border border-white border-2 p-2">
+                  YR. OF ENTRY
+                </th>
+                <th class="text-xs border border-white border-2 p-2">
+                  ENTRY YR. LVL
+                </th>
               </tr>
-              <tr class="teacher-table-row1">
-                <td class="code">1001</td>
-                <td class="sname">Arapoc, Beatrice Jan Gomez</td>
-                <td class="final">
-                  <select>
+
+              <tr
+                class="px-2 py-1 text-sm border border-white border-2 h-10 bg-neutral-200"
+              >
+                <td class="border border-white border-2 pl-2 pr-5">1001</td>
+                <td class="border border-white border-2 pl-2 pr-5 w-64">
+                  Arapoc, Beatrice Jan Gomez
+                </td>
+                <td class="border border-white border-2 pl-2 pr-5 w-36">
+                  <select class="w-36 border border-gray-800">
                     <option></option>
                     <option>A</option>
                     <option>B+</option>
@@ -114,17 +138,21 @@
                     <option>WP</option>
                   </select>
                 </td>
-                <td class="grd-type">NEW</td>
-                <td class="yrlvl">2</td>
-                <td class="acad-status">Regular</td>
-                <td class="entry">2022</td>
-                <td class="entry-yrlvl>">1</td>
+                <td class="border border-white border-2 pl-2 pr-5">NEW</td>
+                <td class="border border-white border-2 pl-2 pr-5">2</td>
+                <td class="border border-white border-2 pl-2 pr-5">Regular</td>
+                <td class="border border-white border-2 pl-2 pr-5">2022</td>
+                <td class="border border-white border-2 pl-2 pr-5">1</td>
               </tr>
-              <tr class="teacher-table-row2">
-                <td class="code">1002</td>
-                <td class="sname">Dela Cruz, Juan</td>
-                <td class="final">
-                  <select>
+              <tr
+                class="px-2 py-1 text-sm border border-white border-2 h-10 bg-neutral-100"
+              >
+                <td class="border border-white border-2 pl-2 pr-5">1002</td>
+                <td class="border border-white border-2 pl-2 pr-5 w-64">
+                  Dela Cruz, Juan
+                </td>
+                <td class="border border-white border-2 pl-2 pr-5 w-36">
+                  <select class="w-36 border border-gray-800">
                     <option></option>
                     <option>A</option>
                     <option>B+</option>
@@ -137,17 +165,21 @@
                     <option>WP</option>
                   </select>
                 </td>
-                <td class="grd-type">NEW</td>
-                <td class="yrlvl">2</td>
-                <td class="acad-status">Regular</td>
-                <td class="entry">2019</td>
-                <td class="entry-yrlvl>">1</td>
+                <td class="border border-white border-2 pl-2 pr-5">NEW</td>
+                <td class="border border-white border-2 pl-2 pr-5">2</td>
+                <td class="border border-white border-2 pl-2 pr-5">Regular</td>
+                <td class="border border-white border-2 pl-2 pr-5">2019</td>
+                <td class="border border-white border-2 pl-2 pr-5">1</td>
               </tr>
-              <tr class="teacher-table-row1">
-                <td class="code">1003</td>
-                <td class="sname">Garcia, Roberto Hernandez</td>
-                <td class="final">
-                  <select>
+              <tr
+                class="px-2 py-1 text-sm border border-white border-2 h-10 bg-neutral-200"
+              >
+                <td class="border border-white border-2 pl-2 pr-5">1003</td>
+                <td class="border border-white border-2 pl-2 pr-5 w-64">
+                  Garcia, Roberto Hernandez
+                </td>
+                <td class="border border-white border-2 pl-2 pr-5 w-36">
+                  <select class="w-36 border border-gray-800">
                     <option></option>
                     <option>A</option>
                     <option>B+</option>
@@ -160,17 +192,21 @@
                     <option>WP</option>
                   </select>
                 </td>
-                <td class="grd-type">NEW</td>
-                <td class="yrlvl">2</td>
-                <td class="acad-status">Regular</td>
-                <td class="entry">2022</td>
-                <td class="entry-yrlvl>">1</td>
+                <td class="border border-white border-2 pl-2 pr-5">NEW</td>
+                <td class="border border-white border-2 pl-2 pr-5">2</td>
+                <td class="border border-white border-2 pl-2 pr-5">Regular</td>
+                <td class="border border-white border-2 pl-2 pr-5">2022</td>
+                <td class="border border-white border-2 pl-2 pr-5">1</td>
               </tr>
-              <tr class="teacher-table-row2">
-                <td class="code">1004</td>
-                <td class="sname">Hernandez, Jose Dela Cruz</td>
-                <td class="final">
-                  <select>
+              <tr
+                class="px-2 py-1 text-sm border border-white border-2 h-10 bg-neutral-100"
+              >
+                <td class="border border-white border-2 pl-2 pr-5">1004</td>
+                <td class="border border-white border-2 pl-2 pr-5 w-64">
+                  Hernandez, Jose Dela Cruz
+                </td>
+                <td class="border border-white border-2 pl-2 pr-5 w-36">
+                  <select class="w-36 border border-gray-800">
                     <option></option>
                     <option>A</option>
                     <option>B+</option>
@@ -183,17 +219,21 @@
                     <option>WP</option>
                   </select>
                 </td>
-                <td class="grd-type">NEW</td>
-                <td class="yrlvl">1</td>
-                <td class="acad-status">Regular</td>
-                <td class="entry">2022</td>
-                <td class="entry-yrlvl>">1</td>
+                <td class="border border-white border-2 pl-2 pr-5">NEW</td>
+                <td class="border border-white border-2 pl-2 pr-5">1</td>
+                <td class="border border-white border-2 pl-2 pr-5">Regular</td>
+                <td class="border border-white border-2 pl-2 pr-5">2022</td>
+                <td class="border border-white border-2 pl-2 pr-5">1</td>
               </tr>
-              <tr class="teacher-table-row1">
-                <td class="code">1005</td>
-                <td class="sname">Lim, Evelyn Tan</td>
-                <td class="final">
-                  <select>
+              <tr
+                class="px-2 py-1 text-sm border border-white border-2 h-10 bg-neutral-200"
+              >
+                <td class="border border-white border-2 pl-2 pr-5">1005</td>
+                <td class="border border-white border-2 pl-2 pr-5 w-64">
+                  Lim, Evelyn Tan
+                </td>
+                <td class="border border-white border-2 pl-2 pr-5 w-36">
+                  <select class="w-36 border border-gray-800">
                     <option></option>
                     <option>A</option>
                     <option>B+</option>
@@ -206,17 +246,21 @@
                     <option>WP</option>
                   </select>
                 </td>
-                <td class="grd-type">NEW</td>
-                <td class="yrlvl">1</td>
-                <td class="acad-status">Regular</td>
-                <td class="entry">2022</td>
-                <td class="entry-yrlvl>">1</td>
+                <td class="border border-white border-2 pl-2 pr-5">NEW</td>
+                <td class="border border-white border-2 pl-2 pr-5">1</td>
+                <td class="border border-white border-2 pl-2 pr-5">Regular</td>
+                <td class="border border-white border-2 pl-2 pr-5">2022</td>
+                <td class="border border-white border-2 pl-2 pr-5">1</td>
               </tr>
-              <tr class="teacher-table-row2">
-                <td class="code">1006</td>
-                <td class="sname">Lim, Joash Miguel</td>
-                <td class="final">
-                  <select>
+              <tr
+                class="px-2 py-1 text-sm border border-white border-2 h-10 bg-neutral-100"
+              >
+                <td class="border border-white border-2 pl-2 pr-5">1006</td>
+                <td class="border border-white border-2 pl-2 pr-5 w-64">
+                  Lim, Joash Miguel
+                </td>
+                <td class="border border-white border-2 pl-2 pr-5 w-36">
+                  <select class="w-36 border border-gray-800">
                     <option></option>
                     <option>A</option>
                     <option>B+</option>
@@ -229,17 +273,21 @@
                     <option>WP</option>
                   </select>
                 </td>
-                <td class="grd-type">NEW</td>
-                <td class="yrlvl">2</td>
-                <td class="acad-status">Regular</td>
-                <td class="entry">2020</td>
-                <td class="entry-yrlvl>">1</td>
+                <td class="border border-white border-2 pl-2 pr-5">NEW</td>
+                <td class="border border-white border-2 pl-2 pr-5">2</td>
+                <td class="border border-white border-2 pl-2 pr-5">Regular</td>
+                <td class="border border-white border-2 pl-2 pr-5">2020</td>
+                <td class="border border-white border-2 pl-2 pr-5">1</td>
               </tr>
-              <tr class="teacher-table-row1">
-                <td class="code">1007</td>
-                <td class="sname">Magno, Lorna Reyes</td>
-                <td class="final">
-                  <select>
+              <tr
+                class="px-2 py-1 text-sm border border-white border-2 h-10 bg-neutral-200"
+              >
+                <td class="border border-white border-2 pl-2 pr-5">1007</td>
+                <td class="border border-white border-2 pl-2 pr-5 w-64">
+                  Magno, Lorna Reyes
+                </td>
+                <td class="border border-white border-2 pl-2 pr-5 w-36">
+                  <select class="w-36 border border-gray-800">
                     <option></option>
                     <option>A</option>
                     <option>B+</option>
@@ -252,17 +300,21 @@
                     <option>WP</option>
                   </select>
                 </td>
-                <td class="grd-type">NEW</td>
-                <td class="yrlvl">2</td>
-                <td class="acad-status">Regular</td>
-                <td class="entry">2020</td>
-                <td class="entry-yrlvl>">1</td>
+                <td class="border border-white border-2 pl-2 pr-5">NEW</td>
+                <td class="border border-white border-2 pl-2 pr-5">2</td>
+                <td class="border border-white border-2 pl-2 pr-5">Regular</td>
+                <td class="border border-white border-2 pl-2 pr-5">2020</td>
+                <td class="border border-white border-2 pl-2 pr-5">1</td>
               </tr>
-              <tr class="teacher-table-row2">
-                <td class="code">1008</td>
-                <td class="sname">Natividad, Karl Justin Angelo Salon</td>
-                <td class="final">
-                  <select>
+              <tr
+                class="px-2 py-1 text-sm border border-white border-2 h-10 bg-neutral-100"
+              >
+                <td class="border border-white border-2 pl-2 pr-5">1008</td>
+                <td class="border border-white border-2 pl-2 pr-5 w-64">
+                  Natividad, Karl Justin Angelo Salon
+                </td>
+                <td class="border border-white border-2 pl-2 pr-5 w-36">
+                  <select class="w-36 border border-gray-800">
                     <option></option>
                     <option>A</option>
                     <option>B+</option>
@@ -275,17 +327,21 @@
                     <option>WP</option>
                   </select>
                 </td>
-                <td class="grd-type">NEW</td>
-                <td class="yrlvl">2</td>
-                <td class="acad-status">Regular</td>
-                <td class="entry">2022</td>
-                <td class="entry-yrlvl>">1</td>
+                <td class="border border-white border-2 pl-2 pr-5">NEW</td>
+                <td class="border border-white border-2 pl-2 pr-5">2</td>
+                <td class="border border-white border-2 pl-2 pr-5">Regular</td>
+                <td class="border border-white border-2 pl-2 pr-5">2022</td>
+                <td class="border border-white border-2 pl-2 pr-5">1</td>
               </tr>
-              <tr class="teacher-table-row1">
-                <td class="code">1009</td>
-                <td class="sname">Reyes, Anita Garcia</td>
-                <td class="final">
-                  <select>
+              <tr
+                class="px-2 py-1 text-sm border border-white border-2 h-10 bg-neutral-200"
+              >
+                <td class="border border-white border-2 pl-2 pr-5">1009</td>
+                <td class="border border-white border-2 pl-2 pr-5 w-64">
+                  Reyes, Anita Garcia
+                </td>
+                <td class="border border-white border-2 pl-2 pr-5 w-36">
+                  <select class="w-36 border border-gray-800">
                     <option></option>
                     <option>A</option>
                     <option>B+</option>
@@ -298,17 +354,21 @@
                     <option>WP</option>
                   </select>
                 </td>
-                <td class="grd-type">NEW</td>
-                <td class="yrlvl">2</td>
-                <td class="acad-status">Regular</td>
-                <td class="entry">2019</td>
-                <td class="entry-yrlvl>">1</td>
+                <td class="border border-white border-2 pl-2 pr-5">NEW</td>
+                <td class="border border-white border-2 pl-2 pr-5">2</td>
+                <td class="border border-white border-2 pl-2 pr-5">Regular</td>
+                <td class="border border-white border-2 pl-2 pr-5">2019</td>
+                <td class="border border-white border-2 pl-2 pr-5">1</td>
               </tr>
-              <tr class="teacher-table-row2">
-                <td class="code">1010</td>
-                <td class="sname">Santos, Ricardo Reyes</td>
-                <td class="final">
-                  <select>
+              <tr
+                class="px-2 py-1 text-sm border border-white border-2 h-10 bg-neutral-100"
+              >
+                <td class="border border-white border-2 pl-2 pr-5">1010</td>
+                <td class="border border-white border-2 pl-2 pr-5 w-64">
+                  Santos, Ricardo Reyes
+                </td>
+                <td class="border border-white border-2 pl-2 pr-5 w-36">
+                  <select class="w-36 border border-gray-800">
                     <option></option>
                     <option>A</option>
                     <option>B+</option>
@@ -321,11 +381,11 @@
                     <option>WP</option>
                   </select>
                 </td>
-                <td class="grd-type">NEW</td>
-                <td class="yrlvl">2</td>
-                <td class="acad-status">Regular</td>
-                <td class="entry">2021</td>
-                <td class="entry-yrlvl>">1</td>
+                <td class="border border-white border-2 pl-2 pr-5">NEW</td>
+                <td class="border border-white border-2 pl-2 pr-5">2</td>
+                <td class="border border-white border-2 pl-2 pr-5">Regular</td>
+                <td class="border border-white border-2 pl-2 pr-5">2021</td>
+                <td class="border border-white border-2 pl-2 pr-5">1</td>
               </tr>
             </table>
           </div>
