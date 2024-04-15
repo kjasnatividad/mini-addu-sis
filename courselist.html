@@ -5,32 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Course List</title>
     <!--<link rel="stylesheet" type="text/css" href="./styles.css" /> -->
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
     <header id="main-head">
-      <img src="images/addu-logo.png" />
-      <div class="head-sis">
-        <p>STUDENT INFORMATION SYSTEM</p>
-        <p class="subhead">ATENEO DE DAVAO UNIVERSITY</p>
+      <div class="flex flex-row items-center h-16 bg-blue-800">
+        <img src="images/addu-logo.png" class="ml-20 w-12 h-12" />
+        <div class="ml-2">
+            <p class="text-white text-lg">STUDENT INFORMATION SYSTEM</p>
+            <p class="text-sm text-gray-400">ATENEO DE DAVAO UNIVERSITY</p>
+        </div>
       </div>
     </header>
-    <div id="container">
-      <nav class="left-menu">
-        <div class="student-profile">
-          <img src="images/student-profile.jpg" />
-          <p>
+    <div class="flex flex-row ml-2 mt-5">
+      <nav class="border-r border-dashed border-gray-300 pr-10">
+        <div class="flex flex-row">
+          <img src="images/student-profile.jpg" class="w-12 h-12 mr-2"/>
+          <p class="text-sm text-blue-800">
             <b>Juan Dela Cruz</b> <br />
             Edit My Profile
           </p>
         </div>
-        <ul>
-          <li class="title-menu">TASK</li>
-          <li class="active-page"><a href="courselist.html">Course List</a></li>
-          <li><a href="studentgrades.html">Grades</a></li>
-          <li><a href="teacher.html">Grades Submission(Teacher)</a></li>
+        <ul class="ml-2 mt-2">
+          <li class="text-sm text-gray-500 font-bold">TASK</li>
+          <li class="text-xs font-bold pt-1"><a href="courselist.html">Course List</a></li>
+          <li class="text-xs pt-1"><a href="studentgrades.html">Grades</a></li>
+          <li class="text-xs pt-1"><a href="teacher.html">Grades Submission(Teacher)</a></li>
         </ul>
       </nav>
-      <div class="mainbody-student">
+      <div class="mainbody-student pl-10">
         <h3>Course List</h3>
         <div class="courses-info">
           <table>
